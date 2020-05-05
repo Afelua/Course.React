@@ -5,6 +5,8 @@ import {
     Route
 } from "react-router-dom";
 
+import './styles.less';
+
 import Header from './Header';
 import List from './pages/List';
 import Main from './pages/Main';
