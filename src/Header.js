@@ -1,9 +1,10 @@
 import React from "react";
 import {Link} from "react-router-dom";
+import styles from './styles.less';
 
 function Header() {
     return <nav>
-        <ul>
+        <ul className={styles.menu}>
             <li>
                 <Link to="/">Home</Link>
             </li>
