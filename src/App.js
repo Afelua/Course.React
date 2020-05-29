@@ -11,6 +11,7 @@ import Header from './Header';
 import List from './pages/List';
 import Main from './pages/Main';
 import Room from './pages/Room';
+import Example from './pages/Example/components';
 
 export default function App() {
     return (
@@ -20,6 +21,9 @@ export default function App() {
                 <Switch>
                     <Route path="/list">
                         <List />
+                    </Route>
+                    <Route path="/example">
+                        <Example />
                     </Route>
                     <Route path="/room">
                         <Room />
