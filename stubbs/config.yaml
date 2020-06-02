@@ -1,0 +1,21 @@
+###
+- request:
+    url: ^/rooms$
+    method: GET
+  response:
+    - status: 200
+      headers:
+        content-type: application/json
+      file: data/rooms.json
+
+###
+- request:
+    url: ^/room$
+    query:
+      id: "([0-9]+)"
+    method: GET
+  response:
+    - status: 200
+      headers:
+        content-type: application/json
+      file: data/room.json

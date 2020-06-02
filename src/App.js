@@ -5,35 +5,34 @@ import {
     Route
 } from "react-router-dom";
 
-import './styles.less';
 
-import Header from './Header';
-import List from './pages/List';
+import Header from './components/header';
+import Footer from './components/footer';
+import List from './pages/List/components';
 import Main from './pages/Main';
 import Room from './pages/Room';
-import Example from './pages/Example/components';
+
+import './styles.less';
 
 export default function App() {
     return (
-        <Router>
-            <div>
-                <Header/>
-                <Switch>
-                    <Route path="/list">
-                        <List />
-                    </Route>
-                    <Route path="/example">
-                        <Example />
-                    </Route>
-                    <Route path="/room">
-                        <Room />
-                    </Route>
-                    <Route path="/">
-                        <Main />
-                    </Route>
-                </Switch>
-            </div>
-        </Router>
+            <Router>
+                <div>
+                    <Header/>
+                    <Switch>
+                        <Route path="/list">
+                            <List />
+                        </Route>
+                        <Route path="/room/:id">
+                            <Room />
+                        </Route>
+                        <Route path="/">
+                            <Main />
+                        </Route>
+                    </Switch>
+                    <Footer/>
+                </div>
+            </Router>
     );
 }
 

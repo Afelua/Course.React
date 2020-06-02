@@ -1,0 +1,61 @@
+{
+  "message":[
+    {
+      "id":1,
+      "name":"Adriatic Suite",
+      "rating":7.5,
+      "reviews":2,
+      "guests":3,
+      "square":57,
+      "text":"Offering 2 balconies and views of Rovinj's Main Square and the lively waterfront.",
+      "price":300,
+      "animalAllowed":true,
+      "seaView":true,
+      "breakfastIncluded":true,
+      "wiFi":true
+    },
+    {
+      "id":2,
+      "name":"Atelier",
+      "rating":8,
+      "reviews":5,
+      "guests":3,
+      "square":25,
+      "text":"Inspired by a workshop, Atelier rooms are a part of the old town’s center.",
+      "price":132,
+      "animalAllowed":true,
+      "wiFi":true
+    },
+    {
+      "id":3,
+      "name":"Gallery",
+      "rating":9.5,
+      "reviews":4,
+      "guests":2,
+      "square":37,
+      "text":"Set at the very top floor of the hotel, this suite is air-conditioned.",
+      "price":432,
+      "swimmingPool":true,
+      "smookingRoom":true,
+      "breakfastIncluded":true,
+      "wiFi":true
+    },
+    {
+      "id":4,
+      "name":"Piazza Suite",
+      "rating":9.8,
+      "reviews":7,
+      "guests":4,
+      "square":78,
+      "text":"Offering views of Rovinj's Main Square, this spacious suite is air-conditioned.",
+      "price":610,
+      "animalAllowed":true,
+      "seaView":true,
+      "smookingRoom":true,
+      "swimmingPool":true,
+      "wiFi":true,
+      "breakfastIncluded":true
+    }
+  ],
+  "status":"success"
+}
